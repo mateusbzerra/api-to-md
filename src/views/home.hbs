@@ -1,0 +1,17 @@
+<h1>Teste </h1>
+<div id="container">
+  {{#each reqs }}
+  <div class="card">
+    <div class="method {{method}}">
+      <strong>{{method}}</strong>
+    </div>
+    <div class="url">
+      <h4>{{url}} </h4>
+    </div>
+  </div>
+  <div class="body">
+    <strong>body:</strong>
+    <p> {{body.text}} </p>
+  </div>
+  {{/each }}
+</div>
